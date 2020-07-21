@@ -2,12 +2,11 @@
 template: DefaultPage
 slug: default
 title: Default
-featuredImage: https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/
+featuredImage: 'https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/'
 meta:
   description: test meta description
   title: test meta title
 ---
-
 ## This is the DefaultPage template
 
 Paragraphs are separated by a blank line.
@@ -16,15 +15,15 @@ The second paragraph. This is placeholder text that our web designers put here t
 
 ### Unordered lists:
 
-- this one
-- that one
-- the other one
+* this three
+* that one
+* the other one
 
 ### Ordered lists:
 
-1.  first item
-1.  second item
-1.  third item
+1. first item
+2. second item
+3. third item
 
 > Block quotes are written like so.
 >
