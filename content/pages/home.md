@@ -1,9 +1,15 @@
 ---
 template: HomePage
 slug: ''
+<<<<<<< HEAD
 title: Yellowcake
 featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
 subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+=======
+title: Kelli's Homeschool
+featuredImage: 'https://ucarecdn.com/1390c542-e34d-4ee0-bd83-76f59da66ac4/'
+subtitle: The journey is only half of the trip.
+>>>>>>> 3c2afe3e4d57e0d271deefa28c527e586127823a
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter

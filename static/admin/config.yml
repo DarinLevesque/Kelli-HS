@@ -3,7 +3,11 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
+<<<<<<< HEAD
 display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
+=======
+# display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
+>>>>>>> 3c2afe3e4d57e0d271deefa28c527e586127823a
 media_library:
   name: uploadcare
   config:

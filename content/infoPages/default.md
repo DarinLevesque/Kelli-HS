@@ -2,12 +2,19 @@
 template: DefaultPage
 slug: default
 title: Default
+<<<<<<< HEAD
 featuredImage: https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/
+=======
+featuredImage: 'https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/'
+>>>>>>> 3c2afe3e4d57e0d271deefa28c527e586127823a
 meta:
   description: test meta description
   title: test meta title
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3c2afe3e4d57e0d271deefa28c527e586127823a
 ## This is the DefaultPage template
 
 Paragraphs are separated by a blank line.
@@ -16,6 +23,7 @@ The second paragraph. This is placeholder text that our web designers put here t
 
 ### Unordered lists:
 
+<<<<<<< HEAD
 - this one
 - that one
 - the other one
@@ -25,6 +33,17 @@ The second paragraph. This is placeholder text that our web designers put here t
 1.  first item
 1.  second item
 1.  third item
+=======
+* this three
+* that one
+* the other one
+
+### Ordered lists:
+
+1. first item
+2. second item
+3. third item
+>>>>>>> 3c2afe3e4d57e0d271deefa28c527e586127823a
 
 > Block quotes are written like so.
 >
