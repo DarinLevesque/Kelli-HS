@@ -167,7 +167,7 @@ class Form extends React.Component {
           <input
             className="Button Form--SubmitButton g-recaptcha"
             data-sitekey="6LdkobQZAAAAACpvQ-uZ2scx2vR63rCUTb62TF5Q"
-            data-callback='onSubmit' 
+            data-callback='handleSubmit' 
             data-action='submit'
             type="submit"
             value="Enquire"
