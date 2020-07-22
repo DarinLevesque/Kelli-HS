@@ -60,6 +60,11 @@ class Form extends React.Component {
       <Fragment>
         <Helmet>
           <script src="https://www.google.com/recaptcha/api.js" />
+          <script>
+            function onSubmit(token) {
+              document.getElementById("demo-form").submit();
+            }
+          </script>
         </Helmet>
         <form
           className="Form"
@@ -162,11 +167,7 @@ class Form extends React.Component {
             className="g-recaptcha"
             data-sitekey="6LdkobQZAAAAACpvQ-uZ2scx2vR63rCUTb62TF5Q"
           /> */}
-          <script>
-            function onSubmit(token) {
-              document.getElementById("demo-form").submit();
-            }
-          </script>
+          
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
