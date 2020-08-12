@@ -1,12 +1,12 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
-email: Kelli@WhereTheWildlingsLearn.com
+title: Contact Us
+featuredImage: 'https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/'
+subtitle: In case you want to get ahold of us
+address: Greater DMV area
+phone: 123 000 1234
+email: kelli@levesque.education
 locations:
   - lat: '-27.9654732'
     lng: '153.2432449'
