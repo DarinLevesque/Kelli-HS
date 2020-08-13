@@ -57,8 +57,8 @@ export default ({ children, meta, title }) => {
               titleTemplate={`%s | ${siteTitle}`}
             >
               {title}
-              <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
-              <link rel="dns-prefetch" href="https://ucarecdn.com" />
+              {/* <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
+              <link rel="dns-prefetch" href="https://ucarecdn.com" /> */}
               {/* Add font link tags here */}
               <html lang="en" />
             </Helmet>
@@ -74,7 +74,7 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            <GithubCorner url="https://github.com/thriveweb/yellowcake" />
+            <GithubCorner url="https://github.com/DarinLevesque/Kelli-HS" />
 
             <Nav subNav={subNav} />
 
