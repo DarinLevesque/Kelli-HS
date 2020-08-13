@@ -6,7 +6,7 @@ featuredImage: >-
   https://res.cloudinary.com/kdventures/image/upload/v1597342855/Contact_s0kf0u.png
 subtitle: In case you want to get ahold of us
 address: Greater DMV area
-phone: 123 000 1234
+phone: ''
 email: kelli@wherethewildlingslearn.com
 locations:
   - lat: '-27.9654732'
