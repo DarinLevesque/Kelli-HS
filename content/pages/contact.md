@@ -2,7 +2,8 @@
 template: ContactPage
 slug: contact
 title: Contact Us
-featuredImage: 'https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/'
+featuredImage: >-
+  https://res.cloudinary.com/kdventures/image/upload/v1597342855/Contact_s0kf0u.png
 subtitle: In case you want to get ahold of us
 address: Greater DMV area
 phone: 123 000 1234
