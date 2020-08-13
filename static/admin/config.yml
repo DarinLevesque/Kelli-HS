@@ -5,17 +5,22 @@ backend:
 
 publish_mode: editorial_workflow
 
-display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
+display_url: https://WhereTheWildlingsLearn.com # This url will display in the top-right of the CMS
+# media_library:
+#   name: uploadcare
+#   config:
+#     publicKey: a73a170cb5cdef662983
+#     multiple: false
+#     tabs: 'file camera url facebook gdrive'
+#     effects: 'crop,rotate,enhance,grayscale'
+#     imageShrink: '2000x2000'
+#     previewStep: true
+#     clearable: true
 media_library:
-  name: uploadcare
+  name: cloudinary
   config:
-    publicKey: a73a170cb5cdef662983
-    multiple: false
-    tabs: 'file camera url facebook gdrive'
-    effects: 'crop,rotate,enhance,grayscale'
-    imageShrink: '2000x2000'
-    previewStep: true
-    clearable: true
+    cloud_name: kdventures
+    api_key: 572764312795197
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
