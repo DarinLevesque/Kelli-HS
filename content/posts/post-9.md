@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: Sign
-status: Featured / Published
+status: Draft
 date: '2018-03-27'
 featuredImage: 'https://ucarecdn.com/157877ea-a2cb-49b6-8130-768fbe1a60a7/'
 excerpt: >-
