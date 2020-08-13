@@ -3,10 +3,7 @@ template: HomePage
 slug: ''
 title: Kelli's Homeschool
 featuredImage: 'https://ucarecdn.com/1390c542-e34d-4ee0-bd83-76f59da66ac4/'
-subtitle: |-
-  Finding freedom. Cultivating curiosities. Enjoying the journey.
-
-  The journey is only half of the trip.
+subtitle: Finding freedom. Cultivating curiosities. Enjoying the journey.
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
