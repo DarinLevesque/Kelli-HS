@@ -16,13 +16,6 @@ meta:
   description: If you'd like to get in touch this is the place to do that!
   title: Contact Page
 ---
+# Send us feedback
 
-# Example contact form
-
-This form is setup to use Netlify's form handling:
-
-- the form action is set to the current absolute url: `action: '/contact/'`
-- a name attribute is sent with the form's data `'form-name': 'Contact'`
-- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
-
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+If you have any question, comments or feedback, we would enjoy the opportunity to continually grow and better assist you with your journey.
