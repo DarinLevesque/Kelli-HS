@@ -7,7 +7,7 @@ featuredImage: >-
 subtitle: In case you want to get ahold of us
 address: Greater DMV area
 phone: 123 000 1234
-email: kelli@levesque.education
+email: kelli@wherethewildlingslearn.com
 locations:
   - lat: '-27.9654732'
     lng: '153.2432449'
