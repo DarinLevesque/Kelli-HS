@@ -1,5 +1,6 @@
 import React from 'react'
 import CMS from 'netlify-cms-app'
+import cloudinary from 'netlify-cms-media-library-cloudinary'
 import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
@@ -10,7 +11,7 @@ import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
 import uploadcare from 'netlify-cms-media-library-uploadcare'
 
-CMS.registerMediaLibrary(uploadcare)
+CMS.registerMediaLibrary(cloudinary)
 
 if (
   window.location.hostname === 'localhost' &&

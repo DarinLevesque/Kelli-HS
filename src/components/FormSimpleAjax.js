@@ -170,7 +170,7 @@ class Form extends React.Component {
             data-callback='handleSubmit' 
             data-action='submit'
             type="submit"
-            value="Enquire"
+            value="Submit"
             disabled={this.state.disabled}
           />
         </form>

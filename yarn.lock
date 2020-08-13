@@ -8945,6 +8945,15 @@ netlify-cms-lib-auth@^2.2.4:
   resolved "https://registry.yarnpkg.com/netlify-cms-lib-auth/-/netlify-cms-lib-auth-2.2.4.tgz#e7a12f510e535fdc22adc0d0bd8a6450e53e9a80"
   integrity sha512-Y9/Gm+FpAz9t8P4lpeHE5e3+e6+6jSRey5RCcQv42RNXwrV5aODuxpmQ/vBYe9VSBXZUv3C7OJ1Sxsm2fhixXg==
 
+netlify-cms-lib-util@^2.11.1:
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/netlify-cms-lib-util/-/netlify-cms-lib-util-2.11.1.tgz#e08d1c738d24229fe74a1ac1ddab088063c172ca"
+  integrity sha512-PaV5yPpPPBMGpAVjbEgr1y1Zd9cgie8pU4GJkpT89PGY2n7lvf4yEnt5UE56YbR0tuHpOu6M4385kvRG6PRkoA==
+  dependencies:
+    js-sha256 "^0.9.0"
+    localforage "^1.7.3"
+    semaphore "^1.1.0"
+
 netlify-cms-lib-util@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/netlify-cms-lib-util/-/netlify-cms-lib-util-2.3.3.tgz#11f8993a104a362447297cd233b99d1b05cdc0b5"
@@ -8952,6 +8961,11 @@ netlify-cms-lib-util@^2.3.3:
   dependencies:
     js-sha256 "^0.9.0"
     localforage "^1.7.3"
+
+netlify-cms-media-library-cloudinary@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/netlify-cms-media-library-cloudinary/-/netlify-cms-media-library-cloudinary-1.3.5.tgz#8247e2dc42e1171653576c122149cb2825bbc75c"
+  integrity sha512-YW9gEN86sVKIz63HG/ORSA+dL5wQIcsKUTg64xhsmPbT2p0IvuougPQhwaDF2jTuFzt5/72k//jGuYGC18U+QA==
 
 netlify-cms-media-library-uploadcare@^0.5.5:
   version "0.5.5"

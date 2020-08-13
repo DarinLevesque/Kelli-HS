@@ -3,19 +3,19 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'Kelli-HS',
-    siteUrl: 'https://yellowcake.netlify.com'
+    siteUrl: 'https://wherethewildlingslearn.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
-    {
-      resolve: 'gatsby-plugin-google-tagmanager',
-      options: {
-        /*id: 'GTM-add_your_tag_here',*/
-        id: 'GTM-P4RNF8D',
-        includeInDevelopment: false
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-google-tagmanager',
+    //   options: {
+    //     /*id: 'GTM-add_your_tag_here',*/
+    //     id: 'GTM-P4RNF8D',
+    //     includeInDevelopment: false
+    //   }
+    // },
     {
       resolve: 'gatsby-plugin-offline',
       options: {
@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'Where the Wildlings Learn',
+        short_name: 'Wildlings',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',
@@ -139,7 +139,7 @@ module.exports = {
       resolve: 'gatsby-plugin-nprogress',
       options: {
         // Setting a color is optional.
-        color: 'white',
+        color: 'red',
         // Disable the loading spinner.
         showSpinner: false
       }

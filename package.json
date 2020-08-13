@@ -1,8 +1,8 @@
 {
   "name": "Kelli-HC",
-  "HomePage": "https://yellowcake.netlify.com/",
-  "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
-  "version": "2.0.0",
+  "HomePage": "https://wherethewildlingslearn.com",
+  "description": "A place where we discuss our homeschooling journey and how you can achieve your goals.",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/DarinLevesque/Kelli-HS"
@@ -38,6 +38,8 @@
     "lodash.clonedeep": "^4.5.0",
     "modern-normalize": "^0.5.0",
     "netlify-cms-app": "^2.9.7",
+    "netlify-cms-lib-util": "^2.11.1",
+    "netlify-cms-media-library-cloudinary": "^1.3.5",
     "netlify-cms-media-library-uploadcare": "^0.5.5",
     "node-sass": "^4.13.0",
     "postcss-preset-env": "^6.7.0",
