@@ -13,7 +13,7 @@ locations:
     lng: '153.2432449'
     mapLink: ''
 meta:
-  description: This is a meta description.
+  description: If you'd like to get in touch this is the place to do that!
   title: Contact Page
 ---
 
