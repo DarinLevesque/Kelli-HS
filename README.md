@@ -2,7 +2,7 @@
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![dependencies](https://david-dm.org/darinlevesque/Kelli-HS.svg?style=flat-square)](https://david-dm.org/darinlevesque/Kelli-HS)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2c9e6097-f765-4980-8ee0-9cd2a0530301/deploy-status)](https://app.netlify.com/sites/wherethewildlingslearn/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c9e6097-f765-4980-8ee0-9cd2a0530301/deploy-statusstyle=flat-square)](https://app.netlify.com/sites/wherethewildlingslearn/deploys)
 
 An opinionated starter project for creating lightning-fast websites with [Gatsby](https://gatsbyjs.org) v2 and [Netlify CMS](https://netlifycms.org) v2. Made by [Thrive Web Design on the Gold Coast, Australia](https://thriveweb.com.au)
 
