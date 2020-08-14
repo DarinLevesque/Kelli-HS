@@ -11,7 +11,7 @@ export default ({
     className='Form'
     name={name}
     action={action}
-    data-netlify=''
+    data-netlify='true'
     data-netlify-honeypot='_gotcha'
   >
     <label className='Form--Label'>
@@ -36,11 +36,11 @@ export default ({
       <select
         className='Form--Input Form--Select'
         name='type'
-        defaultValue='Type of Enquiry'
+        defaultValue='Type of Inquiry'
         required
       >
         <option disabled hidden>
-          Type of Enquiry
+          Type of Inquiry
         </option>
         <option>Need to know more</option>
         <option>Found a bug</option>
