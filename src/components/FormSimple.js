@@ -64,5 +64,6 @@ export default ({
       type='submit'
       value='Submit'
     />
+    <button type="submit">Send</button>
   </form>
 )

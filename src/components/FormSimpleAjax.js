@@ -7,10 +7,10 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
+    name: 'Contact',
     subject: '', // optional subject of the notification email
     action: '',
-    successMessage: 'Thanks for your enquiry, we will get back to you soon',
+    successMessage: 'Thanks for your inquiry, we will get back to you soon',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
   }
@@ -27,7 +27,7 @@ class Form extends React.Component {
     const form = e.target
     const data = serialize(form)
     this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
+    fetch(form.action + '?no-cache=1' + stringify(data), {
       method: 'POST'
     })
       .then(res => {
@@ -66,8 +66,8 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify="true"
-          netlify-recaptcha=""
+          data-netlify-recaptcha="true"
+          Netlify
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -129,11 +129,11 @@ class Form extends React.Component {
             <select
               className="Form--Input Form--Select"
               name="type"
-              defaultValue="Type of Enquiry"
+              defaultValue="Type of inquiry"
               required
             >
               <option disabled hidden>
-                Type of Enquiry
+                Type of inquiry
               </option>
               <option>Need to know more</option>
               <option>Found a bug</option>

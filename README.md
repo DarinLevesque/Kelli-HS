@@ -1,4 +1,6 @@
-# Yellowcake
+# Where the Wildlings Learn
+
+### Adapted from the Yellowcake Gatsby Starter from [Thrive](https://thriveweb.com.au/)
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![dependencies](https://david-dm.org/darinlevesque/Kelli-HS.svg?style=flat-square)](https://david-dm.org/darinlevesque/Kelli-HS)
